@@ -404,13 +404,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== TRUE) {
           </div>
         </div>
       </div>
-      <footer class="main-footer">
-        <div class="footer-left">
-          <a href="templateshub.net">Templateshub</a></a>
-        </div>
-        <div class="footer-right">
-        </div>
-      </footer>
+      <?php include './partials/footer.php';?>
     </div>
   </div>
   <!-- General JS Scripts -->

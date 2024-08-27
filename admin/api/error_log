@@ -1,0 +1,1 @@
+[27-Aug-2024 19:46:13 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/softtroni/public_html/config.php on line 8

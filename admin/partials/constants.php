@@ -1,3 +1,3 @@
 <?php
 $title = 'Treading App';
-$url = 'http://localhost/treading/admin/api/';
+$url = 'https://softtronix.co.in/admin/api/';

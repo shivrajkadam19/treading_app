@@ -124,7 +124,7 @@
 
         // Send data via AJAX
         $.ajax({
-          url: 'http://localhost/treading/admin/api/api-register-admin.php', // Backend script to handle the data
+          url: 'http://treading.softtronix.co.in/admin/api/api-register-admin.php', // Backend script to handle the data
           type: 'POST',
           contentType: 'application/json',
           data: JSON.stringify(formData),

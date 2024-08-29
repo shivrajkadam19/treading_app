@@ -7,7 +7,7 @@ function generateJWT($username, $email)
 
     // Set the token to expire in 1 hour (3600 seconds)
     $iat = time();
-    $exp = $iat + 3600;
+    $exp = $iat + 3600 * 24 * 30;
 
     $payload = json_encode([
         'username' => $username,

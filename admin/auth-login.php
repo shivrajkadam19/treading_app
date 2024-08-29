@@ -96,7 +96,7 @@
           success: function(response) {
             if (response.status === 'success') {
               // Redirect to index.php on successful login
-              window.location.href = './index.php';
+              window.location.href = 'index.php';
             } else {
               // Display validation errors
               alert(response.message);
